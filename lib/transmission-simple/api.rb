@@ -36,7 +36,7 @@ module TransmissionSimple
             {}
           end
         else
-          raise Transmission::Error.new( json_results['result'] )
+          raise TransmissionSimple::Error.new( json_results['result'] )
         end
       end
     end
